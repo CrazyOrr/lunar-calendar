@@ -26,6 +26,6 @@ SELECT lunar_cycle, lunar_year_of_cycle, lunar_year_of_cycle_name, lunar_month_o
 - [infinet/lunar-calendar](https://github.com/infinet/lunar-calendar)
 
 ## License
-See [LICENSE](.LICENSE)
+See [LICENSE](./LICENSE)
 
 [1]: https://www.hko.gov.hk/tc/gts/time/conversion1_text.htm#
