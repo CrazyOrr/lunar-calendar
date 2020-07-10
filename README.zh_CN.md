@@ -22,7 +22,7 @@ SELECT lunar_cycle, lunar_year_of_cycle, lunar_year_of_cycle_name, lunar_month_o
 `lunar-calendar.sqbpro`是SQLite工程文件，其中包含了以上的使用演示。
 
 ## 致谢
-- [Hong Kong Observatory][1]
+- [香港天文台][1]
 - [infinet/lunar-calendar](https://github.com/infinet/lunar-calendar)
 
 ## 许可
