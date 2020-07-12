@@ -15,8 +15,8 @@ SELECT gregorian_date FROM gregorian_lunar WHERE lunar_cycle = 1 AND lunar_year_
 ```
 - 由公历日期查询对应的中国农历日期
 ```sql
-SELECT lunar_cycle, lunar_year_of_cycle, lunar_month_of_year, lunar_day_of_month FROM gregorian_lunar WHERE gregorian_date = '2020-07-13';
-SELECT lunar_cycle, lunar_year_of_cycle, lunar_year_of_cycle_name, lunar_month_of_year, lunar_month_of_year_name, lunar_day_of_month, lunar_day_of_month_name FROM gregorian_lunar_view WHERE gregorian_date = '2020-07-13';
+SELECT lunar_cycle, lunar_year_of_cycle, lunar_month_of_year, lunar_day_of_month, lunar_solar_term FROM gregorian_lunar WHERE gregorian_date = '2020-07-06';
+SELECT lunar_cycle, lunar_year_of_cycle, lunar_year_of_cycle_name, lunar_month_of_year, lunar_month_of_year_name, lunar_day_of_month, lunar_day_of_month_name, lunar_solar_term, lunar_solar_term_name FROM gregorian_lunar_view WHERE gregorian_date = '2020-07-06';
 ```
 
 `lunar-calendar.sqbpro`是SQLite工程文件，其中包含了以上的使用演示。

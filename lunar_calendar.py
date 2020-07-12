@@ -156,7 +156,7 @@ def main():
         lunar_month_of_year INTEGER NOT NULL,
         lunar_month_of_year_name TEXT NOT NULL,
         lunar_day_of_month INTEGER NOT NULL,
-        solar_term INTEGER
+        lunar_solar_term INTEGER
         )''')
 
     # for year in range(1901, 1902):
